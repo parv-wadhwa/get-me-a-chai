@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <div className="flex justify-center items-center flex-col text-white h-[44vh] gap-4 px-5 px-0 text-xs md:text-base">
-        <div className="font-bold text-5xl flex gap-4 md:text-5xl text-xl justify-center items-center">Buy Me A Chai <span><img className="invert" src="/Tea mug.gif" width={88} alt="" /></span></div>
+        <div className="font-bold text-5xl flex gap-4 md:text-5xl text-xl justify-center items-center">Buy Me A Chai <span><img className="invert" src="/Tea-mug.gif" width={88} alt="" /></span></div>
         <p className="text-gray-400 text-center md:text-left">
           A crowfunding platform for creators.
         </p>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
 
           <div className="item space-y-3 flex flex-col items-center justify-center max-w-xs text-center">
-            <img className="bg-slate-400 rounded-full p-2 text-black" src="/group 1.gif" width={88} alt="" />
+            <img className="bg-slate-400 rounded-full p-2 text-black" src="/group-1.gif" width={88} alt="" />
             <p className="font-bold text-xl">Build Your Community</p>
             <p className="text-gray-400 text-sm">
               Strengthen your connection with supporters and grow a loyal community around your work.
