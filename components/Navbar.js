@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className='bg-blue-950 text-white flex justify-between px-4 md:h-16 items-center flex-col md:flex-row'>
 
         <Link className="logo font-bold text-lg flex justify-center items-center gap-2" href='/'>
-        <img className='invert' src="/tea mug.gif" width={44} alt="" />
+        <img className='invert' src="/tea-mug.gif" width={44} alt="" />
         <span className='text-xl md:text-base my-5 md:my-0'>Get Me A Chai!</span>
         </Link>
       
