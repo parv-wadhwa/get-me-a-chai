@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Get Me A Chai
 
-## Getting Started
+A full-stack web application where users can support creators by buying them a chai (similar to "Buy Me a Coffee"). Built using modern web technologies with secure authentication and payment integration.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+##  Features
+
+*  User Authentication (Google / GitHub login)
+*  User Dashboard to manage profile and details
+*  Razorpay Payment Integration
+*  Supporters can send messages with payments
+*  Dashboard to view supporters & transactions
+*  Fully responsive UI
+*  Fast performance with Next.js
+
+---
+
+##  Tech Stack
+
+**Frontend:**
+
+* HTML
+* CSS
+* JavaScript
+* Next.js
+
+**Backend:**
+
+* Node.js
+* Express.js
+
+**Database:**
+
+* MongoDB
+
+**Other Integrations:**
+
+* Razorpay (Payments)
+* NextAuth (Authentication)
+
+---
+
+##  Folder Structure
+
+```
+/app
+/components
+/models
+/db
+/public
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env.local` file and add the following:
 
-## Learn More
+```
+GITHUB_ID=
+GITHUB_SECRET=
 
-To learn more about Next.js, take a look at the following resources:
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEXTAUTH_URL=
+NEXTAUTH_SECRET=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NEXT_PUBLIC_KEY_ID=
+KEY_SECRET=
 
-## Deploy on Vercel
+MONGODB_URI=
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+##  Installation & Setup
+
+1. Clone the repository
+
+```
+git clone https://github.com/your-username/get-me-a-chai.git
+```
+
+2. Navigate to project folder
+
+```
+cd get-me-a-chai
+```
+
+3. Install dependencies
+
+```
+npm install
+```
+
+4. Run the development server
+
+```
+npm run dev
+```
+
+5. Open in browser
+
+```
+http://localhost:3000
+```
+
+---
+
+##  How It Works
+
+* Users sign in using Google or GitHub
+* Each user gets a personalized page (username-based route)
+* Supporters can send money along with a message
+* Payments are processed via Razorpay
+* User can view supporters in dashboard
+
+
+---
+
+## 🌍 Deployment
+
+Deployed on **Vercel**
+
+To deploy:
+
+* Push code to GitHub
+* Import project in Vercel
+* Add environment variables
+* Deploy 🚀
+
+---
+
+##  Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+##  Show Your Support
+
+If you like this project, give it a ⭐ on GitHub!
